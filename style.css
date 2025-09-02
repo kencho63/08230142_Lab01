@@ -1,0 +1,155 @@
+body {
+    /* Applies styles to the entire webpage body */
+    font-family: 'Open Sans', sans-serif; /* Sets the font family */
+    background-color: #fff; /* White background */
+    color: #333; /* Dark grey text */
+    margin: 0; /* Removes default body margin */
+    padding: 0; /* Removes default body padding */
+}
+
+/* Topbar */
+.topbar {
+    background: #5888b9; /* Blue background */
+    color: #fff; /* White text color */
+    padding: 0.5em; /* Padding inside topbar */
+    width: 100%; /* Full width of the viewport */
+}
+
+.logo {
+    /* Styles for the SCE logo image */
+    height: 15vh; /* Height set to 15% of viewport height */
+    margin-top: -3em; /* Moves logo upward */
+}
+
+.nav-links {
+    /* Styles the unordered list inside topbar */
+    list-style: none; /* Removes bullet points */
+    display: flex; /* Side by side layout */
+    gap: 2em; /* Space between items */
+    justify-content: center; /* Centers horizontally */
+    margin: 0; /* Removes default ul margin */
+    padding: 0; /* Removes default ul padding */
+}
+
+.nav-links li a {
+    color: white; /* White text */
+    text-decoration: none; /* Removes underline */
+    font-size: 14px; /* Sets font size for nav links */
+}
+
+/* Main navigation bar */
+.main-nav {
+    display: flex; /* Row layout */
+    justify-content: space-around; /* Even spacing between nav sections */
+    background-color: #fff; /* White background */
+    padding: 1em 4em 1em 2em; /* Top, right, bottom, left padding */
+}
+
+.nav-section {
+    text-align: center; /* Center text inside each nav section */
+    padding: 1em; /* Inner space around content */
+}
+
+.nav-section a {
+    display: block; /* Makes link occupy full width */
+    color: #000; /* Black text */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Bold text */
+}
+
+.nav-section p {
+    font-size: 0.75em; /* Smaller subtitle text */
+    color: #555; /* Grey text */
+}
+
+.btn-red {
+    background-color: #e74c3c; /* Red background */
+    color: #fff; /* White text */
+    padding: 1em 2em; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Bold text */
+}
+
+/* Banner */
+.banner {
+    background-color: #0d0d0e; /* Dark background */
+    color: white; /* White text */
+    text-align: center; /* Center text */
+    padding: 0.5em; /* Padding inside banner */
+    font-weight: bold; /* Bold text */
+}
+
+/* Main Content */
+.main-content {
+    display: flex; /* Row layout for content sections */
+    padding: 1em 10%; /* Padding around content */
+    gap: 5em; /* Space between video and greetings */
+}
+
+.video-container {
+    flex: 1 1 45%; /* Flexible box, base width 45% */
+}
+
+.greetings {
+    flex: 1 1 45%; /* Flexible box, base width 45% */
+}
+
+.greetings p {
+    text-align: justify; /* Justifies paragraph text */
+}
+
+/* Programmes Page Styling */
+.programmes-container {
+    width: 70%; /* Container width */
+    margin: 2em auto; /* Centers container with vertical spacing */
+    background-color: #fff; /* White background */
+    padding: 2em; /* Padding inside container */
+    border-radius: 6px; /* Rounded corners */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    font-size: 14px; /* Font size for breadcrumb */
+    margin-bottom: 15px; /* Spacing below breadcrumb */
+    color: #666; /* Grey text */
+}
+
+.breadcrumb a {
+    color: #0d0d0e; /* Link color */
+    text-decoration: none; /* Removes underline */
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Programme Headings */
+.programmes-container h2 {
+    color: #0f1011; /* Heading color */
+    font-size: 18px; /* Font size for heading */
+    font-weight: bold; /* Bold text */
+    margin-top: 20px; /* Spacing above heading */
+    margin-bottom: 10px; /* Spacing below heading */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+/* Programme List */
+.programme-list {
+    list-style: disc; /* Bulleted list */
+    margin-left: 25px; /* Indent list items */
+    margin-bottom: 30px; /* Space below list */
+    color: #186aad; /* List text color */
+    font-size: 15px; /* Font size */
+}
+
+.programme-list li {
+    margin-bottom: 8px; /* Space between list items */
+    line-height: 1.5; /* Line spacing */
+}
+
+.programme-list em {
+    color: #d32f2f; /* Special emphasis color */
+    font-style: italic; /* Italic text */
+}
